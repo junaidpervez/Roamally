@@ -1,0 +1,224 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCF3FF">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="ROAM ALLY"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000"/>
+
+    <!-- ScrollView for the list of three items -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/titleText"
+        android:layout_above="@id/favoritesButton"
+        android:layout_marginTop="20dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Item 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="#EAEAEA"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background"/>
+
+                <TextView
+                    android:id="@+id/titleText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Holiday Inn Toronto Downtown Centre, an IHG Hotel"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:paddingTop="4dp"/>
+
+                <TextView
+                    android:id="@+id/descriptionText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Located near downtown Toronto, offering comfort and convenience."
+                    android:textSize="12sp"
+                    android:paddingTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/priceText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$285/night"
+                    android:textSize="12sp"
+                    android:textColor="#3B5998"
+                    android:paddingTop="2dp"/>
+
+                <Button
+                    android:id="@+id/moreDetailsButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0000FF"
+                    android:text="MORE DETAILS"
+                    android:textSize="12sp"
+                    android:textColor="#FFF"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Item 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="#EAEAEA"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background"/>
+
+                <TextView
+                    android:id="@+id/titleText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CN Tower"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:paddingTop="4dp"/>
+
+                <TextView
+                    android:id="@+id/descriptionText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Located in the center of downtown, offering an unforgettable experience."
+                    android:textSize="12sp"
+                    android:paddingTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/priceText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$10 - $45 per person"
+                    android:textSize="12sp"
+                    android:textColor="#3B5998"
+                    android:paddingTop="2dp"/>
+
+                <Button
+                    android:id="@+id/moreDetailsButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0000FF"
+                    android:text="MORE DETAILS"
+                    android:textSize="12sp"
+                    android:textColor="#FFF"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Item 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:background="#EAEAEA"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_launcher_background"/>
+
+                <TextView
+                    android:id="@+id/titleText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ripley's Aquarium of Canada"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:paddingTop="4dp"/>
+
+                <TextView
+                    android:id="@+id/descriptionText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modern aquarium with diverse marine life exhibits and activities."
+                    android:textSize="12sp"
+                    android:paddingTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/priceText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$45/visit"
+                    android:textSize="12sp"
+                    android:textColor="#3B5998"
+                    android:paddingTop="2dp"/>
+
+                <Button
+                    android:id="@+id/moreDetailsButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#0000FF"
+                    android:text="MORE DETAILS"
+                    android:textSize="12sp"
+                    android:textColor="#FFF"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Favorites Button -->
+    <Button
+        android:id="@+id/favoritesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="FAVORITES"
+        android:backgroundTint="#CCCCFF"
+        android:textColor="#000"
+        android:drawableLeft="@drawable/ic_launcher_background" />
+
+    <!-- Three-dot Options Button -->
+    <ImageButton
+        android:id="@+id/optionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="40dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_launcher_background" />
+
+</RelativeLayout>

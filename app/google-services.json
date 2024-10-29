@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "717079247511",
+    "project_id": "roam-ally-709e2",
+    "storage_bucket": "roam-ally-709e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717079247511:android:c939049db97df25f3a47d2",
+        "android_client_info": {
+          "package_name": "com.example.roamally"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvGVXLUL52RyTNv8kE8mFFCUtoozrEq1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
